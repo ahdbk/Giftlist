@@ -6,12 +6,18 @@ import { HeroSectionComponent } from './components/hero-section/hero-section.com
 import { AboutSectionComponent } from './components/about-section/about-section.component';
 import { ButtonModule } from 'primeng/button';
 import { HeaderComponent } from '../../components/header/header.component';
+import { PrivacyPageComponent } from './privacy-page/privacy-page.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
+import { TermsPageComponent } from './terms-page/terms-page.component';
 
 @NgModule({
   declarations: [
     LandingPageComponent,
     HeroSectionComponent,
-    AboutSectionComponent
+    AboutSectionComponent,
+    PrivacyPageComponent,
+    ContactPageComponent,
+    TermsPageComponent
   ],
   imports: [CommonModule, WebsiteRoutingModule, ButtonModule, HeaderComponent]
 })
