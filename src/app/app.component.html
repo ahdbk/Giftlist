@@ -22,10 +22,11 @@
     <!-- Core theme CSS (includes Bootstrap)-->
   </head>
   <body class="d-flex flex-column h-100">
-    <main class="flex-shrink-0">
-      <app-header />
+    <app-header />
+
+    <main class="flex-shrink-0 min-vh-100">
+      <router-outlet></router-outlet>
     </main>
-    <router-outlet></router-outlet>
 
     <app-footer />
   </body>

@@ -9,6 +9,7 @@ import { HeaderComponent } from '../../components/header/header.component';
 import { PrivacyPageComponent } from './privacy-page/privacy-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { TermsPageComponent } from './terms-page/terms-page.component';
+import { RippleModule } from 'primeng/ripple';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,12 @@ import { TermsPageComponent } from './terms-page/terms-page.component';
     ContactPageComponent,
     TermsPageComponent
   ],
-  imports: [CommonModule, WebsiteRoutingModule, ButtonModule, HeaderComponent]
+  imports: [
+    CommonModule,
+    WebsiteRoutingModule,
+    ButtonModule,
+    HeaderComponent,
+    RippleModule
+  ]
 })
 export class WebsiteModule {}

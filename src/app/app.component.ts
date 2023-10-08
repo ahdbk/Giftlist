@@ -7,7 +7,7 @@ import { PrimeNGConfig } from 'primeng/api';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ng-giftlist';
+  title = 'Gifty';
   constructor(private primengConfig: PrimeNGConfig) {
     this.primengConfig.ripple = true;
   }
