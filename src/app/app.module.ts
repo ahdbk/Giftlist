@@ -8,7 +8,7 @@ import { ButtonModule } from 'primeng/button';
 import { RippleModule } from 'primeng/ripple';
 import { NgOptimizedImage } from '@angular/common';
 import { FooterComponent } from '../components/footer/footer.component';
-import { HeaderComponent } from '../components/header/header.component';
+import { WebsiteHeaderComponent } from '../modules/website/components/website-header/website-header.component';
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,8 +19,7 @@ import { HeaderComponent } from '../components/header/header.component';
     ButtonModule,
     RippleModule,
     NgOptimizedImage,
-    FooterComponent,
-    HeaderComponent
+    FooterComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3776,6 +3776,10 @@ fieldset:disabled .btn {
 .nav-link:focus {
   color: var(--bs-nav-link-hover-color);
 }
+
+.nav-link:active {
+  color: var(--bs-primary);
+}
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
   pointer-events: none;

@@ -5,28 +5,31 @@ import { APP_ROUTES } from '../../app/routes.config';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { PrivacyPageComponent } from './privacy-page/privacy-page.component';
 import { TermsPageComponent } from './terms-page/terms-page.component';
+import { WebsiteLayoutComponent } from './website-layout/website-layout.component';
 
 const routes: Routes = [
   {
-    path: APP_ROUTES.WEBSITE.HOME,
-    component: LandingPageComponent
-  },
-  {
-    path: APP_ROUTES.WEBSITE.TERMS,
-    component: TermsPageComponent
-  },
-  {
-    path: APP_ROUTES.WEBSITE.PRIVACY,
-    component: PrivacyPageComponent
-  },
-  {
-    path: APP_ROUTES.WEBSITE.CONTACT,
-    component: ContactPageComponent
-  },
-  {
     path: '',
-    redirectTo: APP_ROUTES.WEBSITE.HOME,
-    pathMatch: 'full'
+    component: WebsiteLayoutComponent,
+    children: [
+      { path: '', component: LandingPageComponent },
+      {
+        path: APP_ROUTES.WEBSITE.HOME,
+        component: LandingPageComponent
+      },
+      {
+        path: APP_ROUTES.WEBSITE.TERMS,
+        component: TermsPageComponent
+      },
+      {
+        path: APP_ROUTES.WEBSITE.PRIVACY,
+        component: PrivacyPageComponent
+      },
+      {
+        path: APP_ROUTES.WEBSITE.CONTACT,
+        component: ContactPageComponent
+      }
+    ]
   }
 ];
 @NgModule({

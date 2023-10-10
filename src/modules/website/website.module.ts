@@ -5,11 +5,12 @@ import { WebsiteRoutingModule } from './website-routing.module';
 import { HeroSectionComponent } from './components/hero-section/hero-section.component';
 import { AboutSectionComponent } from './components/about-section/about-section.component';
 import { ButtonModule } from 'primeng/button';
-import { HeaderComponent } from '../../components/header/header.component';
+import { WebsiteHeaderComponent } from './components/website-header/website-header.component';
 import { PrivacyPageComponent } from './privacy-page/privacy-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { TermsPageComponent } from './terms-page/terms-page.component';
 import { RippleModule } from 'primeng/ripple';
+import { WebsiteLayoutComponent } from './website-layout/website-layout.component';
 
 @NgModule({
   declarations: [
@@ -18,14 +19,10 @@ import { RippleModule } from 'primeng/ripple';
     AboutSectionComponent,
     PrivacyPageComponent,
     ContactPageComponent,
-    TermsPageComponent
+    TermsPageComponent,
+    WebsiteHeaderComponent,
+    WebsiteLayoutComponent
   ],
-  imports: [
-    CommonModule,
-    WebsiteRoutingModule,
-    ButtonModule,
-    HeaderComponent,
-    RippleModule
-  ]
+  imports: [CommonModule, WebsiteRoutingModule, ButtonModule, RippleModule]
 })
 export class WebsiteModule {}
