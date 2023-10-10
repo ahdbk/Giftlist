@@ -11,6 +11,7 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import { TermsPageComponent } from './terms-page/terms-page.component';
 import { RippleModule } from 'primeng/ripple';
 import { WebsiteLayoutComponent } from './website-layout/website-layout.component';
+import { WebsiteFooterComponent } from './components/website-footer/website-footer.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { WebsiteLayoutComponent } from './website-layout/website-layout.componen
     ContactPageComponent,
     TermsPageComponent,
     WebsiteHeaderComponent,
+    WebsiteFooterComponent,
     WebsiteLayoutComponent
   ],
   imports: [CommonModule, WebsiteRoutingModule, ButtonModule, RippleModule]

@@ -7,8 +7,7 @@ import { AppComponent } from './app.component';
 import { ButtonModule } from 'primeng/button';
 import { RippleModule } from 'primeng/ripple';
 import { NgOptimizedImage } from '@angular/common';
-import { FooterComponent } from '../components/footer/footer.component';
-import { WebsiteHeaderComponent } from '../modules/website/components/website-header/website-header.component';
+import { ProgressSpinnerModule } from 'primeng/progressspinner';
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,7 +18,7 @@ import { WebsiteHeaderComponent } from '../modules/website/components/website-he
     ButtonModule,
     RippleModule,
     NgOptimizedImage,
-    FooterComponent
+    ProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
