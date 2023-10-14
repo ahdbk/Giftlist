@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
-import { APP_ROUTES } from '../../app/routes.config';
+import { APP_ROUTES } from '../../config/routes.config';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { PrivacyPageComponent } from './privacy-page/privacy-page.component';
 import { TermsPageComponent } from './terms-page/terms-page.component';

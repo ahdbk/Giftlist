@@ -4,5 +4,8 @@ export const APP_ROUTES = {
     CONTACT: 'contact',
     TERMS: 'terms',
     PRIVACY: 'privacy'
+  },
+  WIZARD: {
+    LANDING: 'start'
   }
 };
