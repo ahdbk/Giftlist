@@ -9,10 +9,10 @@ const routes: Routes = [
       import('../modules/website/website.module').then(m => m.WebsiteModule)
   },
   {
-    path: APP_ROUTES.WIZARD.LANDING,
+    path: APP_ROUTES.GIFTLIST.LANDING,
     loadChildren: () =>
-      import('../modules/giftlist-wizard/giftlist-wizard.module').then(
-        m => m.GiftlistWizardModule
+      import('../modules/giftlist-wizard/giftlist.module').then(
+        m => m.GiftlistModule
       )
   }
 ];

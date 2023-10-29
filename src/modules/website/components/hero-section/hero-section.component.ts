@@ -8,6 +8,6 @@ import { APP_ROUTES } from '../../../../config/routes.config';
 })
 export class HeroSectionComponent {
   get wizardLandingPageUrl() {
-    return APP_ROUTES.WIZARD.LANDING;
+    return APP_ROUTES.GIFTLIST.LANDING;
   }
 }

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-new-gft-list-page',
-  templateUrl: './new-gft-list-page.component.html',
-  styleUrls: ['./new-gft-list-page.component.scss']
+  selector: 'app-start-gift-list-page',
+  templateUrl: './start-gift-list-page.component.html',
+  styleUrls: ['./start-gift-list-page.component.scss']
 })
-export class NewGftListPageComponent {
+export class StartGiftListPageComponent {
   events: any[];
   value: any;
   types: any[];

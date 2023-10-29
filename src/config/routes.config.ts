@@ -5,7 +5,10 @@ export const APP_ROUTES = {
     TERMS: 'terms',
     PRIVACY: 'privacy'
   },
-  WIZARD: {
-    LANDING: 'start'
+  GIFTLIST: {
+    LANDING: 'list',
+    START: 'start',
+    EDIT: 'edit'
+
   }
 };

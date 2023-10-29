@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NewGftListPageComponent } from './new-gft-list-page.component';
+import { StartGiftListPageComponent } from './start-gift-list-page.component';
 
 describe('NewGftListPageComponent', () => {
-  let component: NewGftListPageComponent;
-  let fixture: ComponentFixture<NewGftListPageComponent>;
+  let component: StartGiftListPageComponent;
+  let fixture: ComponentFixture<StartGiftListPageComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [NewGftListPageComponent]
+      declarations: [StartGiftListPageComponent]
     });
-    fixture = TestBed.createComponent(NewGftListPageComponent);
+    fixture = TestBed.createComponent(StartGiftListPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
